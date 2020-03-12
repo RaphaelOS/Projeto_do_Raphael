@@ -1,0 +1,33 @@
+#camada1{
+position: absolute;
+background-color: #666;
+z-index: 1;
+width: 500px;
+height: 500px;
+left: 50px;
+top: 60px;	
+}
+
+#camada2{
+	position: absolute;
+	background-color: #f00;
+	z-index: 2;
+	width: 500px;
+	height: 500px;
+	left: 100px;
+	top: 100px;
+	transition: 1s all;
+}
+#camada2:hover{
+left: 150px;
+}
+
+#camada3{
+	position: absolute;
+	z-index: 0;
+	background-color: #3b5998;
+	width: 100px;
+	height: 100px;
+	left: 10px;
+	top: 10px;
+}
